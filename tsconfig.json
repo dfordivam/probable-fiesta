@@ -9,6 +9,8 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
     "strict": true
   },
   "include": ["src/**/*.ts", "test/**/*.spec.ts"],
